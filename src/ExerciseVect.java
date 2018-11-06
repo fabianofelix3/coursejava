@@ -6,7 +6,7 @@ import java.util.Scanner;
 import Entites.Product;
 import Entites.Rent;
 
-public class ExerciceVect {
+public class ExerciseVect {
 
 	public static void main(String[] args) throws ParseException {
 

@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 import Entites.EmployeeList;
 
-public class ExerciceList {
+public class ExerciseList {
 
 	public static void main(String[] args) {
 
