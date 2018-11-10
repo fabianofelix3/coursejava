@@ -1,4 +1,3 @@
-
 import entities.Account2;
 import entities.BusinessAccount;
 import entities.SavingsAccount;
