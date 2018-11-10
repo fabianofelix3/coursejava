@@ -1,4 +1,4 @@
-package Entites;
+package entities;
 
 public class EmployeeList {
 	private Integer id;

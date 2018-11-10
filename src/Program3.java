@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-import Entites.Estudent;
+import entities.Estudent;
 
 public class Program3 {
 

@@ -1,6 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
-import Entites.Employee;
+
+import entities.Employee;
 
 public class Program2 {
 

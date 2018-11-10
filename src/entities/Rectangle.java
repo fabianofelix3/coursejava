@@ -1,4 +1,4 @@
-package Entites;
+package entities;
 
 public class Rectangle {
 

@@ -1,4 +1,4 @@
-package Util;
+package util;
 
 public class CurrencyConverter {
 	public static final double iof = 0.06;

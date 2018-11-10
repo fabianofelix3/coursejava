@@ -3,8 +3,8 @@ import java.text.ParseException;
 
 import java.util.Scanner;
 
-import Entites.Product;
-import Entites.Rent;
+import entities.Product;
+import entities.Rent;
 
 public class ExerciseVect {
 

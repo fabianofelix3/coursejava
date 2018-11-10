@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-import Util.CurrencyConverter;
+import util.CurrencyConverter;
 
 public class Program4 {
 

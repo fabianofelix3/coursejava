@@ -1,6 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
-import Entites.Rectangle;
+
+import entities.Rectangle;
 
 public class Program1 {
 
