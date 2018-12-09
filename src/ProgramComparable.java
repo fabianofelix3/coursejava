@@ -3,6 +3,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 import entities.EmployeeComparable;
@@ -21,8 +22,12 @@ public class ProgramComparable {
 				list.add(new EmployeeComparable(fields[0], Double.parseDouble(fields[1])));
 				employeeCsv = br.readLine();
 			}
-			Collections.sort(list);
-			for (EmployeeComparable emp : list) {
+
+			list.sort((p1, p2) -> p1.getName().toUpperCase()
+					.compareTo(p2.getName().toUpperCase()));
+			for (
+
+			EmployeeComparable emp : list) {
 				System.out.println(emp.getName() + ", " + emp.getSalary());
 			}
 		} catch (IOException e) {
