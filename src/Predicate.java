@@ -17,7 +17,7 @@ public class Predicate {
 		list.add(new Product("Tablet", 350.00));
 		list.add(new Product("Hd Case", 80.90));
 
-		list.removeIf(new ProductPredicate());
+		list.removeIf(Product::staticProductPredicate);
 
 		for (Product p : list) {
 			System.out.println(p);
