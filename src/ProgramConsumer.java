@@ -16,7 +16,7 @@ public class ProgramConsumer {
 		list.add(new Product("Tablet", 350.00));
 		list.add(new Product("Hd Case", 80.90));
 
-		list.forEach(new PriceUpdate());
+		list.forEach(Product::noStaticPriceUdate);
 
 		list.forEach(System.out::println);
 
