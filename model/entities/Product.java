@@ -25,12 +25,8 @@ public class Product {
 		this.price = price;
 	}
 
-	public static void staticPriceUdate(Product p) {
-		p.setPrice(p.getPrice() * 1.1);
-	}
-
-	public void noStaticPriceUdate() {
-		price = price * 1.1;
+	public static String staticUpperCaseName(Product p) {
+		return p.getName().toUpperCase();
 	}
 
 	@Override
